@@ -1,0 +1,65 @@
+Activation command: reg_verifier -domain uvmreg -top yapp_router_regs.xml -dut_name yapp_router_regs -out_file yapp_router_regs -cov -quicktest -pkg yapp_router_reg_pkg
+------------------
+Activation command: reg_verifier -domain uvmreg -top yapp_router_regs.xml -dut_name yapp_router_regs -out_file yapp_router_regs -quicktest -cov -pkg yapp_router_reg_pkg
+------------------
+Runnning glue.103s released 2016-07-22T09:01:06.067172+00:00 build-tag: jenkins-11_manual_build_glue_release-205
+
+Packaged as 15.20.050-s released 2018-04-22T10:25:54.531601+00:00
+
+Command Line Arguments:
+    -headless
+    -logfile ./reg_verifier_dir/reg_verifier
+    -execute /tmp/reg_verifier_26699.js
+Environment:
+
+
+Initializing
+
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.svn] to script generation flow [top_flow].
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.blueprint] to script generation flow [top_flow].
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.ttsoma] to script generation flow [top_flow].
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.irun_3step] to script generation flow [top_flow].
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.arm_sw_build] to script generation flow [top_flow].
+At tti_bnr_top_flow_plugin.register_package() [Log]: Register B&R plugin [tti_bnr.relocate] to script generation flow [top_flow].
+Initialize time (ms): 169
+
+Package main.init() done.
+
+(----------2 December 2024 10:53:54 pm----------)
+
+Loading script /tmp/reg_verifier_26699.js
+
+*** Warning: An existing application process is being replaced
+
+Reading XML file yapp_router_regs.xml
+
+Parsing yapp_router_regs.xml
+
+Adding ipxact source library location ./
+
+Importing ipxact source yapp_router_regs.xml
+
+Trying license checkout for: Affirma_sim_analysis_env at 10:53:57.541954 pm
+
+Checked-out license for: Affirma_sim_analysis_env at 10:53:57.626204 pm
+
+Generating code for domain 'uvmreg' in dir '/home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11a_rm_gen/reg_verifier_dir/uvmreg'
+
+  Generating yapp_router_regs_rdb.sv ...
+
+  Generating yapp_router_regs_config.dat ...
+
+  Generating yapp_router_regs_hdlpaths.dat ...
+
+  Generating files for quicktest.sv & Makefile ...
+
+  Generating cdns_uvmreg_utils_pkg.sv ...
+
+Code generation complete.
+
+Execution time (ms): 2997
+
+Execution done - exiting.
+
+(----------2 December 2024 10:53:57 pm----------)
+

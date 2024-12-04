@@ -1,0 +1,85 @@
+xrun(64): 23.03-s005: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.03-s005: Started on Nov 24, 2024 at 14:16:58 -03
+xrun
+	-f run.f
+		-64
+		-uvmhome /opt/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		top.sv
+		+UVM_TESTNAME=set_config_test
+		+UVM_VERBOSITY=UVM_HIGH
+		+SVSEED=random
+	-debug_opts verisium_interactive
+		-source_debug
+		-lwdgen
+		-classlinedebug
+		-enable_tpe
+		-gui
+		-verisium
+		-ext_src_info
+		-ext_macro_src_info
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_HIGH
+
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /opt/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d
+file: ../sv/yapp_pkg.sv
+package yapp_pkg;
+               |
+xmvlog: *W,TSNSPK (../sv/yapp_pkg.sv,1|15): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+	package worklib.yapp_pkg:sv
+		errors: 0, warnings: 1
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.top:sv <0x622230ac>
+			streams: 118, words: 134009
+		worklib.yapp_pkg:sv <0x259e3a84>
+			streams: 543, words: 931669
+		worklib.cdns_uvm_pkg:sv <0x491810c5>
+			streams: 183, words: 402978
+		worklib.cdns_uvmapi:svp <0x392e1310>
+			streams:  27, words: 46545
+		worklib.cdns_assert2uvm_pkg:sv <0x48ccffe0>
+			streams:   3, words:  3322
+		worklib.uvm_pkg:sv <0x5ccd7275>
+			streams: 5407, words: 12215506
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 13962   10257
+		Named events:                  4      12
+		Initial blocks:              295     159
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       203     317
+		SV Class specializations:    386     386
+	Writing initial simulation snapshot: worklib.top:sv
+	Parallel LWD Data Generation
+	Generating Debug Data:
+		LWD Database path: (/home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab04_factory/tb/xcelium.d/worklib/top/sv/debug_db/top)
+		Power Aware Instances:                    0
+		Liberty Instances:                        0
+		Out Of Module References:               180
+		Assertions:                               2
+		Liberty Information:
+			PG Pins:	                  0
+			Liberty Pins:	                  0
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+xmsim: *E,STRPIN: Could not initialize SimVision connection: VERISIUM_DEBUG_ROOT not defined.
+TOOL:	xrun(64)	23.03-s005: Exiting on Nov 24, 2024 at 14:17:03 -03  (total: 00:00:05)

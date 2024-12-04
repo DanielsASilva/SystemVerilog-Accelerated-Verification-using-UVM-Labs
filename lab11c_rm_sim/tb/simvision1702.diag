@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Tue Dec 03 09:31:25 PM -03 2024
+SimVision started.
+Version: TOOL:  simvision(64)   24.09-s001
+User: bit
+Host: cdsbox
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Tue Dec 03 09:31:25 PM -03 2024
+Command: /opt/cadence/XCELIUM2303/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:cdsbox:59343 -64BIT -nocopyright
+Work Directory: /home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11c_rm_sim/tb
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:31:26 PM -03 2024
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:31:27 PM -03 2024
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:31:29 PM -03 2024
+Connect to Simulator
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.09-s001
+        User: bit
+        Host: cdsbox
+Time Started: Tue Dec 03 09:31:25 PM -03 2024
+  Process ID: 1662
+   Directory: /home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11c_rm_sim/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:31:29 PM -03 2024
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:31:32 PM -03 2024
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:32:47 PM -03 2024
+Exit XM-Sim: user
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.09-s001
+        User: bit
+        Host: cdsbox
+Time Started: Tue Dec 03 09:31:25 PM -03 2024
+  Process ID: 1662
+   Directory: /home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11c_rm_sim/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: error ***
+When: Tue Dec 03 09:32:47 PM -03 2024
+XM-Sim Crashed:
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.09-s001
+        User: bit
+        Host: cdsbox
+Time Started: Tue Dec 03 09:31:25 PM -03 2024
+  Process ID: 1662
+   Directory: /home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11c_rm_sim/tb
+     Command: xrun -f run.f -gui -access rwc
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       24.09-s001
+        User: bit
+        Host: cdsbox
+Time Started: Tue Dec 03 09:31:25 PM -03 2024
+  Process ID: 1662
+   Directory: /home/bit/code/cadence courses labs/SystemVerilog Accelerated Verification using UVM/lab11c_rm_sim/tb
+     Command: xrun -f run.f -gui -access rwc
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Tue Dec 03 09:32:49 PM -03 2024
+SimVision Exit.
+ 

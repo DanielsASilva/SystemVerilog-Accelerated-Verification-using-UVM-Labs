@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(02Dec2024:22:55:30):( irun -uvmhome default +uvm_set_config_string=*,uvm_reg_generate_access_file_seq::file_name,access_file ./cdns_uvmreg_utils_pkg.sv ./yapp_router_regs_rdb.sv ./quicktest.sv -log irun_gen_access.log +UVM_TESTNAME=access_test )
+s2::(03Dec2024:18:39:04):( irun -uvmhome default ./cdns_uvmreg_utils_pkg.sv ./yapp_router_regs_rdb.sv ./quicktest.sv -vclass_ext +UVM_TESTNAME=qt_test )&&(./xcelium.d/env.d/env.history.03Dec2024_18_39_04)
+s3::(03Dec2024:21:03:36):( xrun quicktest.sv )&&(./xcelium.d/env.d/env.history.03Dec2024_21_03_36)
+s4::(03Dec2024:21:03:42):( irun -uvmhome default ./cdns_uvmreg_utils_pkg.sv ./yapp_router_regs_rdb.sv ./quicktest.sv -vclass_ext +UVM_TESTNAME=qt_test )&&(./xcelium.d/env.d/env.history.03Dec2024_21_03_42)
